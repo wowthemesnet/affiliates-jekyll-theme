@@ -1,0 +1,99 @@
+---
+layout: default
+title: Home
+---
+
+</div>
+</div>
+<!-- We've temporary closed main-content and container to have a full width intro -->    
+
+
+<!-- Home Jumbotron
+================================================== -->    
+<section class="intro">
+    <div class="wrapintro">
+        <h1>Jekyll Theme for Marketers</h1>
+        <h2 class="lead">"Affiliates" is a Jekyll theme designed & developed by WowThemesNet, best suitable for affiliate marketing.</h2>    
+        <a target="_blank" href="https://gum.co/affiliates-jekyll-template" class="btn">Download</a>
+    </div>
+</section>
+
+<!-- We reopen main-content and container --> 
+
+<div class="container">
+    
+    <div class="main-content">
+        
+
+        <!-- Featured
+        ================================================== -->
+        <section class="featured-posts">
+
+            <div class="section-title">
+                <h2><span>Featured</span></h2>
+            </div>
+
+            <div class="row listfeaturedtag">
+
+            {% for post in site.posts %}
+
+                {% if post.featured == true %}
+
+                    {% include featuredbox.html %}
+
+                {% endif %}
+
+            {% endfor %}
+
+            </div>
+
+        </section>
+
+        <!-- Posts Index
+        ================================================== -->
+         {% if paginator.previous_page %}
+                {% if paginator.previous_page > 0 %}
+                 <div id="jumptopageof"></div>
+        {% endif %}
+        {% endif %}    
+
+        <section class="recent-posts row">
+
+            <div class="col-sm-4">
+                {% include sidebar.html %}
+            </div>
+
+            <div class="col-sm-8">
+
+                <div class="section-title">
+                    <h2><span>All Stories</span></h2>    
+                </div>
+
+                <div class="masonrygrid row listrecent">
+
+                    {% for post in paginator.posts %}
+
+                    {% unless post.featured == true %}
+
+                        {% include postbox.html %}
+
+                    {% endunless %}
+
+                    {% endfor %}
+
+                </div> 
+
+                <!-- Pagination -->
+                <div class="bottompagination">
+
+                    <span class="navigation" role="navigation">
+
+                        {% include pagination.html %}
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
