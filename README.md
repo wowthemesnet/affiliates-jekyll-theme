@@ -38,7 +38,7 @@ If you aren't familiar with Jekyll yet, you should know that it is a static site
 ### Using Affiliates template with Jekyll
 
 Download or Fork *Affiliates for Jekyll*. 
-- In your local project, open <code>_config.yml</code>. If your site is in root, for <code>baseurl</code>, make sure this is set to <code>baseurl: /</code>. Also, change your Google Analytics code, Disqus username, Authors, Mailchimp, ShareThis code (https://www.sharethis.com/) etc.
+- In your local project, open <code>_config.yml</code>. Set your <code>baseurl</code>, your Google Analytics code, Disqus username, Authors, Mailchimp, ShareThis code (https://www.sharethis.com/) etc.
 - Affiliates requires 2 plugins: 
     - <code>$ gem install jekyll-paginate</code>
     - <code>$ gem install jekyll-archives</code>.
