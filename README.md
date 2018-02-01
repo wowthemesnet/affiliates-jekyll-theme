@@ -1,8 +1,8 @@
 # "Affiliates" - Jekyll Template by WowThemes.net
 
-[Live Demo](https://wowthemesnet.github.io/affiliates-theme-jekyll/) &nbsp; &nbsp; [Download](https://gum.co/affiliates-jekyll-template)
+[Live Demo](https://wowthemesnet.github.io/affiliates-jekyll-theme/) &nbsp; &nbsp; [Download](https://gum.co/affiliates-jekyll-template)
 
-![enter image description here](assets/images/affiliates-jekyll-template.png)
+![enter image description here](assets/images/theme1.jpg)
 
 ### Features
 
