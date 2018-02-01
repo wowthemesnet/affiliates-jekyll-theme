@@ -9,16 +9,12 @@ post_class: post-template
 ================================================== -->
 
 	<div class="row">
-		
 
 		<!-- Post -->        
         {% assign author = site.authors[page.author] %}
         
-		<div class="col-sm-8">
-            <!-- Post Featured Image -->
-			{% if page.image %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">{% endif %}
-			<!-- End Featured Image -->
-			<div class="mainheading">             
+		<div class="col-md-8 col-lg-8">
+			<div class="mainheading">              
                 
                 <!-- Post Categories -->
                 <div class="after-post-tags">
@@ -26,7 +22,7 @@ post_class: post-template
                         {% assign sortedCategories = page.categories | sort %}
                         {% for category in sortedCategories %}
                         <li>
-                         <a href="{{ site.baseurl }}/categories#{{ category | slugify }}">{{ category }}</a>
+                         <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category }}</a>
                         </li>
                         {% endfor %}
                     </ul>
@@ -38,10 +34,12 @@ post_class: post-template
                 
 			</div>
 
-			
+			<!-- Post Featured Image -->
+			{% if page.image %}<img class="featured-image img-fluid" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">{% endif %}
+			<!-- End Featured Image -->
 
 			<!-- Post Content -->
-			<div class="article-post serif-font">
+			<div class="article-post">
 				{{content}}
                 <div class="clearfix"></div>
 			</div>
@@ -59,7 +57,7 @@ post_class: post-template
 			
             
             <!-- Prev/Next -->
-            <div class="row PageNavigation mt-4 prevnextlinks d-flex justify-content-between">
+            <div class="row PageNavigation mt-4 prevnextlinks">
               {% if page.previous.url %}
                 <div class="col-md-6 rightborder pl-0">
                     <a class="thepostlink" href="{{page.previous.url | absolute_url}}">&laquo; {{page.previous.title}}</a>
@@ -78,7 +76,7 @@ post_class: post-template
                 {% if page.author %}				
 				<div class="row post-top-meta">
 					<div class="col-md-2">
-						<img class="author-thumb" src="{{site.baseurl}}/{{author.avatar}}" alt="{{ author.display_name }}">
+						<img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
 					</div>
 					<div class="col-md-10">
 						<a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
@@ -97,21 +95,16 @@ post_class: post-template
             </section>
             <!--End Comments
             ================================================== -->
-            
-            
-
+			
 		</div>
 		<!-- End Post -->
-
-
         
-
-		<!-- Sidebar -->
-        <div class="col-sm-4">
-            {% include sidebar.html %}
-            </div>
-        
-        
+        <!-- Right Sidebar -->
+        <div class="col-md-4 col-lg-4">
+        <div class="sidebar-right">
+        {% include sidebar.html %}
+        </div>
+        </div>
 
 	</div>
 
