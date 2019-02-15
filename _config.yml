@@ -1,11 +1,12 @@
 # Site
-name: Affiliates Theme for Jekyll
-description: Jekyll Theme for Blogging
+name: "Affiliates Theme for Jekyll"
+title: "Affiliates Theme for Jekyll"
+description: "Jekyll Theme for Blogging"
 meta_description: "Jekyll theme for blogging."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 12
-baseurl: 
+baseurl: '/affiliates-jeyll-theme'
 email: 'wowthemesnet@gmail.com'
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
@@ -33,8 +34,11 @@ authors:
 # Plugins
 plugins: 
   - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-archives
-    
+        
 # Archives
 jekyll-archives:
   enabled:

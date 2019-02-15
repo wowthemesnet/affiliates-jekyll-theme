@@ -1,13 +1,17 @@
 # "Affiliates" - Jekyll Template by WowThemes.net
 
-[Live Demo](https://wowthemesnet.github.io/affiliates-jekyll-theme/) &nbsp; &nbsp; [Download](https://github.com/wowthemesnet/affiliates-jekyll-theme/archive/master.zip)
+[Live Demo](https://wowthemesnet.github.io/affiliates-jekyll-theme/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/affiliates-jekyll-theme/archive/master.zip) &nbsp; | &nbsp; [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/wowthemes/10)
 
-![enter image description here](assets/images/theme1.jpg)
+
+![affiliates](assets/images/theme1.jpg)
 
 ### Features
 
 - Built for Jekyll
 - Compatible with Github pages
+- Feed
+- Sitemap
+- SEO
 - Featured Posts
 - Index Pagination
 - Post Share
@@ -37,21 +41,21 @@ If you aren't familiar with Jekyll yet, you should know that it is a static site
 
 ### Using Affiliates template with Jekyll
 
-Download or Fork *Affiliates for Jekyll*. 
-- In your local project, open <code>_config.yml</code>. Set your <code>baseurl</code>, your Google Analytics code, Disqus username, Authors, Mailchimp, ShareThis code (https://www.sharethis.com/) etc.
-- Affiliates requires 2 plugins: 
-    - <code>$ gem install jekyll-paginate</code>
-    - <code>$ gem install jekyll-archives</code>.
-    - Edit the header & footer in <code>default.html</code>.  Edit home in <code>index.html</code>. Edit the contact form in <code>contact.html</code> (https://formspree.io/).
-- Start blogging by adding your .md files in <code>_posts</code>. If you download the template you will notice it already has a few as an example. 
+- `git clone https://github.com/wowthemesnet/affiliates-jekyll-theme.git`
+- `cd affiliates-jekyll-theme`
+- `bundle`
+- Edit `_config.yml`. If your site is in root: `baseurl: ''`. Also, change your Google Analytics code, Disqus username, Authors, Mailchimp, ShareThis code (https://www.sharethis.com/) etc.
+- `jekyll serve --watch`
+- Start blogging by adding your .md files in `_posts`. 
+
 - YAML front matter
-    - post featured - <code>featured:true</code>
-    - post featured image - <code>image: assets/images/mypic.jpg</code>
-    - page comments - <code>comments:true</code>
-    - meta description (optional) - <code>description: "this is my meta description"</code>
+    - post featured - `featured:true`
+    - post featured image - `image: assets/images/mypic.jpg`
+    - page comments - `comments:true`
+    - meta description (optional) - `description: "this is my meta description"`
     
 YAML Post Example:
-<pre>
+```
 ---
 layout: post
 title:  "We all wait for summer"
@@ -60,29 +64,32 @@ categories: [ Jekyll, tutorial ]
 image: assets/images/5.jpg
 featured: true
 ---
-</pre>
+```
 
 YAML Page Example
-<pre>
+```
 ---
 layout: page
 title: Affiliates Template for Jekyll
 comments: true
 ---
-</pre>
+```
 
 ### Copyright
 
-Copyright (C) 2018 WowThemes.net.
+Copyright (C) 2019 WowThemes.net.
 
 **Affiliates for Jekyll** is designed by [Sal](https://www.wowthemes.net) and it is licensed MIT. If this project helps you reduce time to develop or you want to remove the attribution credit, you can give me a cup of coffee :)
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/wowthemes/5)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/wowthemes/10)
 
 -----------------
 
-## Contribute
+### Contribute
 
-- Clone the repo.
-- Create a branch off of master and give it a meaningful name (e.g. my-new-affiliates-feature).
-- Open a pull request on GitHub and describe the feature or fix.
+1. [Fork the repo](https://github.com/wowthemesnet/affiliates-jekyll-theme.git).
+2. Clone a copy of your fork on your local
+3. Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
+4. Make necessary changes, commit, push and open a pull request on GitHub.
+
+Thank you!

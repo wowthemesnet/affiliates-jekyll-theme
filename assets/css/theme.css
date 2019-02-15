@@ -1,12 +1,12 @@
 /*
 Template Name:Affiliates
 Copyright:WowThemes.net,https://www.wowthemes.net
-Version:1.0.0
-License: Attribution-NonCommercial 4.0 International 
-         Free for personal use. For commercial use, please read: https://www.wowthemes.net/freebies-license/
+Version:1.0.2
+License: https://www.wowthemes.net/freebies-license/
 */
 body {
     font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    overflow-x: hidden;
 }
 .mainheading {
 	padding: 0rem 0rem 1rem 0;
@@ -130,8 +130,6 @@ section.recent-posts {
 .navbar-toggler {
     z-index:9999;
 }
-
-
 
 .navbar-toggleable-md .navbar-nav .nav-link {
     margin-left: 1rem;
@@ -460,7 +458,14 @@ blockquote {
 	vertical-align:middle;
 }
 
-
+.full-width {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
 @media (max-width:999px) {
 	.listfeaturedtag .wrapthumbnail, .listfeaturedtag .col-md-7 {
 		width:100%;
