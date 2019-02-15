@@ -1,6 +1,6 @@
 # "Affiliates" - Jekyll Template by WowThemes.net
 
-[Live Demo](https://wowthemesnet.github.io/affiliates-jekyll-theme/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/affiliates-jekyll-theme/archive/master.zip) &nbsp; | &nbsp; [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/wowthemes/10)
+[Live Demo](https://wowthemesnet.github.io/affiliates-jekyll-theme/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/affiliates-jekyll-theme/archive/master.zip) &nbsp; | &nbsp; [Buy me a coffee](https://www.paypal.me/wowthemes/10)
 
 
 ![affiliates](assets/images/theme1.jpg)
@@ -44,7 +44,7 @@ If you aren't familiar with Jekyll yet, you should know that it is a static site
 - `git clone https://github.com/wowthemesnet/affiliates-jekyll-theme.git`
 - `cd affiliates-jekyll-theme`
 - `bundle`
-- Edit `_config.yml`. If your site is in root: `baseurl: ''`. Also, change your Google Analytics code, Disqus username, Authors, Mailchimp, ShareThis code (https://www.sharethis.com/) etc.
+- Edit `_config.yml`. If your site is in root: `baseurl: '/'`. Also, change your Google Analytics code, Disqus username, Authors, Mailchimp, ShareThis code etc.
 - `jekyll serve --watch`
 - Start blogging by adding your .md files in `_posts`. 
 
