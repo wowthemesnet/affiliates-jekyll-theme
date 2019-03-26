@@ -1,0 +1,51 @@
+---
+layout: page
+title:  "Cannabidiol"
+author: john
+categories: [ THC, tutorial ]
+image: assets/images/6.jpg
+---
+<div class="sidebar-section">
+            <h5><span>Inhaltsverzeichnis</span></h5>
+            <ul style="list-none;">
+            <li><a target="_blank" href="https://m.do.co/c/84c9b45d0c47">Das Hanfblatt: Was ist CBD?</a></li>
+            <li><a target="blank" href="https://www.wowthemes.net/category/jekyll-themes/">Cannabis Legalisierung</a></li>
+            <li><a target="blank" href="https://www.wowthemes.net/category/jekyll-themes/">Cannabis auf Rezept</a></li>
+            <li><a target="blank" href="http://shareasale.com/r.cfm?b=875645&u=1087935&m=41388&urllink=&afftrack=">THC im Blut</a></li>
+            <li><a target="blank" href="https://www.wowthemes.net/affiliate-area/?utm_source=fromjekyllsidebar&utm_campaign=sidebar">THC im Urin</a></li>
+            <li><a target="blank" href="https://www.cloudways.com/en/pricing.php?id=153986&a_bid=005da123">THC Liquid</a></li>
+            </ul>
+        </div>
+
+<div class="sidebar-section">
+            <h5><span>Aktuelle Themen zu THC</span></h5>
+            <ul style="list-none;">
+            <li><a target="blank" href="https://www.wowthemes.net/category/jekyll-themes/">THC Öl</a></li>
+            <li><a target="blank" href="https://www.wowthemes.net/category/jekyll-themes/">THC Liquid</a></li>
+            <li><a target="blank" href="http://shareasale.com/r.cfm?b=875645&u=1087935&m=41388&urllink=&afftrack=">THC im Blut</a></li>
+            <li><a target="blank" href="https://www.wowthemes.net/affiliate-area/?utm_source=fromjekyllsidebar&utm_campaign=sidebar">THC im Urine</a></li>
+            </ul>
+        </div>
+<!-- Featured
+================================================== -->
+<section class="featured-posts">
+
+    <div class="section-title">
+        <h2><span>Hanfsamen</span></h2>
+    </div>
+
+    <div class="row listfeaturedtag">
+
+    {% for post in site.posts %}
+
+        {% if post.featured == true %}
+
+            {% include featuredbox.html %}
+
+        {% endif %}
+
+    {% endfor %}
+
+    </div>
+
+</section>
