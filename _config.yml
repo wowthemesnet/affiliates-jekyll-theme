@@ -1,34 +1,34 @@
 # Site
-name: "Affiliates Theme for Jekyll"
-title: "Affiliates Theme for Jekyll"
+name: "How to Pi"
+title: "How to Pi"
 description: "Jekyll Theme for Blogging"
-meta_description: "Jekyll theme for blogging."
+meta_description: "Raspberrypi projects tutorials and a whole lot more! | Learn new projects and product news for Rpi. "
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 12
 baseurl: '/'
-email: 'wowthemesnet@gmail.com'
-google_analytics: 'UA-46278016-1'
+email: 'vishalpatra@outlook.com'
+google_analytics: 'UA-148825422-1'
 disqus: 'demowebsite'
 sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
 
 # Authors
 authors:
   sal:
-    name: Sal
-    display_name: Sal
+    name: Vishal Patra
+    display_name: Vip3R
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    email: vishalpatra@outlook.com
+    web: #
+    twitter: https://twitter.com/notvishalpatra
+    description: "Ill edit this later"
   john:
-    name: John
+    name: John Doe
     display_name: John
     gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
+    email: #
+    web: #
+    twitter: #
     description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
 
 # Plugins
