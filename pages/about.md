@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about
+permalink: "/about/"
 image: assets/images/screenshot.png
 ---
 
