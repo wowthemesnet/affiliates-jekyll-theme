@@ -1,7 +1,7 @@
 title: "Haade"
 email: administrateur@haade.fr
 timezone: Europe/Paris
-baseurl: "/haade"
+baseurl: "/"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
