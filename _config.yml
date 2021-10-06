@@ -1,7 +1,7 @@
-title: "Affiliates"
-email: wowthemesnet@gmail.com
-timezone: UTC
-baseurl: "/affiliates-jekyll-theme"
+title: "Haade"
+email: administrateur@haade.fr
+timezone: Europe/Paris
+baseurl: "/haade"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
@@ -24,23 +24,24 @@ ganalytics: UA-113961478-1
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
-    avatar: 'assets/images/sal.png'
-    email: wowthemesnet@gmail.com
+  nico:
+    name: Nico
+    display_name: Nico
+    avatar: 'assets/images/nico.png'
+    gravatar: 66178447db0764d08b4bd975c515fa5d
+    email: nico@haade.fr
     web: https://www.wowthemes.net/category/jekyll-themes/
     twitter: https://twitter.com/wowthemesnet
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John
-    avatar: 'assets/images/john.png'
+    description: "Admirateur en domotique, spécialisée en montage Diy sur Home-Assistant, Jeedom et Openhab, montez votre réseau en Zigbee ou Z-wave à moindre prix."
+  yann:
+    name: Yann
+    display_name: Yann
+    avatar: 'assets/images/yann.png'
+    gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: wowthemesnet@gmail.com
     web: https://www.wowthemes.net/category/jekyll-themes/
     twitter: https://twitter.com/wowthemesnet
     description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
-
 # Social
 social:
   instagram: https://www.instagram.com/bootstrapstarter/
