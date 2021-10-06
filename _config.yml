@@ -27,7 +27,6 @@ authors:
   nico:
     name: Nico
     display_name: Nico
-    avatar: 'assets/images/nico.png'
     gravatar: 66178447db0764d08b4bd975c515fa5d
     email: nico@haade.fr
     web: https://www.wowthemes.net/category/jekyll-themes/
