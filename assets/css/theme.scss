@@ -273,11 +273,11 @@ span.post-read-more a {
     height: 30px;
     line-height: 30px;
     text-align: center;
-    border: 1px solid #d0d0d0;
     border-radius: 50%;
 }
 span.post-name a,span.post-read-more a:hover {
 	color:rgba(0,0,0,.8);
+    font-weight: bold;
 }
 .dot:after {
 	content:"·";

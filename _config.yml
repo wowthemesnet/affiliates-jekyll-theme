@@ -5,7 +5,7 @@ baseurl: "/haade"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-author: Sal
+author: Nico
 paginate: 30
 disqus: 'demowebsite'
 locale: en_us
@@ -42,6 +42,7 @@ authors:
     web: https://www.wowthemes.net/category/jekyll-themes/
     twitter: https://twitter.com/wowthemesnet
     description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
+
 # Social
 social:
   instagram: https://www.instagram.com/bootstrapstarter/
