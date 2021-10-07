@@ -48,6 +48,16 @@ social:
   facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
   twitter: https://twitter.com/bstartercom
 
+# Admin
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "pages"
+
 # Plugins
 plugins:
 - jekyll-paginate
@@ -55,3 +65,5 @@ plugins:
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-archives
+
+
