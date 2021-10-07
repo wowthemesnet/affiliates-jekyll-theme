@@ -50,11 +50,8 @@ social:
 
 # Plugins
 plugins:
-- github-pages
 - jekyll-paginate
 - jekyll-sitemap
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-archives
-- liquid_pluralize
-- liquid_reading_time
