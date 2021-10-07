@@ -4,8 +4,10 @@ layout: default
 background: '/img/bg-index.jpg'
 ---
 
+{% if page.url == "/" %} 
+
 <!-- Home Intro
-================================================== -->
+================================================== 
 {% if page.url == "/" %} 
 <div class="rounded mb-5 hero">
   <div class="row align-items-center justify-content-between">
@@ -19,16 +21,16 @@ background: '/img/bg-index.jpg'
     </div>
   </div>
 </div>
-{% endif %}
+{% endif %} -->
 
 <!-- Featured
 ================================================== -->
 <section class="row">
   {% for post in site.posts %}
       {% if post.featured == true %}
-          <div class="col-md-4 mb-5">
+ <!--        <div class="col-md-4 mb-5"> -->
           {% include postbox.html %}
-          </div>
+ <!--         </div> -->
       {% endif %}
   {% endfor %}
   </div>
