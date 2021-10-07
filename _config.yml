@@ -8,8 +8,8 @@ favicon: 'assets/images/favicon.ico'
 author: Nico
 paginate: 30
 disqus: 'demowebsite'
-locale: en_us
-lang: en_us
+locale: fr_fr
+lang: fr_fr
 feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
@@ -49,9 +49,11 @@ social:
   twitter: https://twitter.com/bstartercom
 
 # Plugins
-plugins: 
+plugins:
 - jekyll-paginate
 - jekyll-sitemap
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-archives
+- liquid_pluralize
+- liquid_reading_time

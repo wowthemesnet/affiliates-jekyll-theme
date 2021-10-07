@@ -20,4 +20,6 @@ group :jekyll_plugins do
     gem 'jekyll-archives'
     gem 'tzinfo-data'
     gem 'tzinfo'
+    gem 'liquid_pluralize'
+    gem 'liquid_reading_time'
 end
