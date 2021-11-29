@@ -1,15 +1,15 @@
-title: "Affiliates"
-email: wowthemesnet@gmail.com
-timezone: UTC
-baseurl: "/affiliates-jekyll-theme"
+title: "Haade"
+email: administrateur@haade.fr
+timezone: Europe/Paris
+baseurl: "/"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-author: Sal
+author: Nico
 paginate: 30
 disqus: 'demowebsite'
-locale: en_us
-lang: en_us
+locale: fr_fr
+lang: fr_fr
 feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
@@ -24,18 +24,19 @@ ganalytics: UA-113961478-1
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
-    avatar: 'assets/images/sal.png'
-    email: wowthemesnet@gmail.com
+  nico:
+    name: Nico
+    display_name: Nico
+    gravatar: 66178447db0764d08b4bd975c515fa5d
+    email: nico@haade.fr
     web: https://www.wowthemes.net/category/jekyll-themes/
     twitter: https://twitter.com/wowthemesnet
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John
-    avatar: 'assets/images/john.png'
+    description: "Admirateur en domotique, spécialisée en montage Diy sur Home-Assistant, Jeedom et Openhab, montez votre réseau en Zigbee ou Z-wave à moindre prix."
+  yann:
+    name: Yann
+    display_name: Yann
+    avatar: 'assets/images/yann.png'
+    gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: wowthemesnet@gmail.com
     web: https://www.wowthemes.net/category/jekyll-themes/
     twitter: https://twitter.com/wowthemesnet
@@ -47,10 +48,22 @@ social:
   facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
   twitter: https://twitter.com/bstartercom
 
+# Admin
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "pages"
+
 # Plugins
-plugins: 
+plugins:
 - jekyll-paginate
 - jekyll-sitemap
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-archives
+
+

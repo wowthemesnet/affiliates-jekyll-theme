@@ -4,9 +4,10 @@ layout: default
 background: '/img/bg-index.jpg'
 ---
 
+
 <!-- Home Intro
 ================================================== -->
-{% if page.url == "/" %} 
+{% if page.url == "/" %}
 <div class="rounded mb-5 hero">
   <div class="row align-items-center justify-content-between">
     <div class="col-md-6">
@@ -15,7 +16,7 @@ background: '/img/bg-index.jpg'
       <a href="{{site.baseurl}}/about" class="btn btn-dark text-white px-5 btn-lg">About me</a>
     </div>
     <div class="col-md-6 text-right pl-0 pl-lg-4">
-      <img class="intro" height="500" src="{{site.baseurl}}/assets/images/intro.svg">      
+      <img class="intro" height="500" src="{{site.baseurl}}/assets/images/intro.svg">
     </div>
   </div>
 </div>
@@ -26,9 +27,9 @@ background: '/img/bg-index.jpg'
 <section class="row">
   {% for post in site.posts %}
       {% if post.featured == true %}
-          <div class="col-md-4 mb-5">
+         <div class="col-md-4 mb-5">
           {% include postbox.html %}
-          </div>
+         </div>
       {% endif %}
   {% endfor %}
   </div>
