@@ -1,0 +1,27 @@
+---
+layout: default
+title: Archive
+---
+
+<!-- Begin List Posts
+================================================== -->
+<section class="row recent-posts">
+    <div class="col-md-4 col-lg-4">
+        {% include sidebar.html %}
+    </div>
+
+    <div class="col-md-8 col-lg-8">
+        <div class="section-title">
+            <h2><span>{{ page.type }} '{{ page.title }}'</span></h2>
+        </div>
+        <div class="masonrygrid row listrecent">
+
+            {% for post in page.posts %}
+
+            {% include postbox.html %}
+
+            {% endfor %}
+
+        </div>
+    </div>
+</section>
