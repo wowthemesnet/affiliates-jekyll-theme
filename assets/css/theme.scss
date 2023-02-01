@@ -13,9 +13,24 @@ $yellow: #ffa200;
 
 @import 'bootstrap/bootstrap';
 
+// Fonts
+
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
 
+@font-face { /* License: OFL 1.1 */
+  font-family: 'fontello';
+  src: url('../theme/fonts/fontello.woff2?75734825') format('woff2'),
+       url('../theme/fonts/fontello.woff?75734825') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"]::before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+	
 /* add additional CSS rules below */
 html {
     scroll-behavior: smooth;
