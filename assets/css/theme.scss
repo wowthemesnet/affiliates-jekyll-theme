@@ -626,7 +626,7 @@ span.navigation:before {
    margin-top: 2em;
 }
 .integrations input {
-  color: var(grey);
+  color: grey;
   font-size: 20px;
   text-align: left;
 }
@@ -645,9 +645,9 @@ span.navigation:before {
   display: none
 }
 .integrations input[type=radio] + label {
-  border: 1px solid var(grey);
+  border: 1px solid grey;
   background-color: white;
-  color: var(grey);
+  color: grey;
   border-radius: 6px;
   padding: 16px;
   margin: 0;
@@ -655,11 +655,11 @@ span.navigation:before {
   margin-bottom: 1em;
 }
 .integrations input[type=radio]:hover + label {
-  background-color: var(grey);
+  background-color: grey;
   color: white;
 }
 .integrations input[type=radio]:checked + label {
-  border: 3px solid var(yellow);
+  border: 3px solid yellow;
 }
 .integrations .filter-options {
   flex: 1 1 100%;
@@ -685,7 +685,7 @@ span.navigation:before {
   margin: 0;
 }
 .tag-button {
-  border: 1px solid var(grey);
+  border: 1px solid grey;
   border: 1px solid #8a8b8c;
   background-color: white;
   color: #8a8b8c;
@@ -694,7 +694,7 @@ span.navigation:before {
   margin: 0;
 }
 .tag-button:hover {
-  background-color: var(grey);
+  background-color: grey;
   color: white;
   cursor: pointer;
 }
@@ -717,7 +717,7 @@ span.navigation:before {
   height: auto;
   background-color: white;
   border: 1px solid #ced4da;
-  color: var(grey);
+  color: grey;
   text-align: left;
   padding: 5px 5px;
   border-radius: 6px;
@@ -839,8 +839,8 @@ span.navigation:before {
 }
 .social-links a {
   border-radius: 8px;
-  color: var(grey);
-  border: 1px solid var(grey);
+  color: grey;
+  border: 1px solid grey;
   display: inline-block;
   font-size: .7em;
   line-height: 1.5em;
@@ -852,8 +852,8 @@ span.navigation:before {
 .social-links a:hover {
   color: #fff;
   transform: translateY(-0.1em);
-  background-color: var(yellow);
-  border-color: var(yellow);
+  background-color: yellow;
+  border-color: yellow;
 }
 .integrations .item:hover .item-logo, .integrations .item:active .item-logo {
   display: none;
@@ -879,10 +879,10 @@ span.navigation:before {
   }
 }
 
-.social-links .icon-github::after           { border-color:     var(grey); }
-.social-links .icon-home::after             { border-color:     var(grey); }
-.social-links .icon-link-ext:after          { border-color:     var(grey); }
-.social-links .icon-doc-text:after          { border-color:     var(grey); }
+.social-links .icon-github::after           { border-color:     grey; }
+.social-links .icon-home::after             { border-color:     grey; }
+.social-links .icon-link-ext:after          { border-color:     grey; }
+.social-links .icon-doc-text:after          { border-color:     grey; }
 
 @media screen and (min-width: 768px) {
   .integrations .social-links {
