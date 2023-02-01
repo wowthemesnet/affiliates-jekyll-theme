@@ -3,9 +3,9 @@ email: wowthemesnet@gmail.com
 timezone: UTC
 baseurl: "/affiliates-jekyll-test-site"
 permalink: "/:title/"
-logo: 'assets/images/logo.png'
+logo: 'assets/images/osoh_logo.png'
 favicon: 'assets/images/favicon.ico'
-author: Sal
+author: OSOH Contriubtors
 paginate: 30
 disqus: 'demowebsite'
 locale: en_us
