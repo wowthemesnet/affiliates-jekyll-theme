@@ -622,6 +622,33 @@ span.navigation:before {
 // Open Science Resources page
 // Integrations / extensions / from datalad into-the-wild
 
+.icon-home:before { content: '\e800'; }
+.icon-mail:before { content: '\e801'; }
+.icon-mastodon:before { content: '\e802'; }
+.icon-users:before { content: '\e807'; }
+.icon-ok:before { content: '\e80a'; }
+.icon-cog:before { content: '\e80c'; }
+.icon-book:before { content: '\e811'; }
+.icon-cancel-circled:before { content: '\e813'; }
+.icon-down-dir:before { content: '\e814'; }
+.icon-link-ext:before { content: '\f08e'; }
+.icon-twitter:before { content: '\f099'; }
+.icon-github:before { content: '\f09b'; }
+.icon-docs:before { content: '\f0c5'; }
+.icon-chat-empty:before { content: '\f0e6'; }
+.icon-download-cloud:before { content: '\f0ed'; }
+.icon-doc-text:before { content: '\f0f6'; }
+.icon-laptop:before { content: '\f109'; }
+.icon-quote-left:before { content: '\f10d'; }
+.icon-code:before { content: '\f121'; }
+.icon-rocket:before { content: '\f135'; }
+.icon-youtube-play:before { content: '\f16a'; }
+.icon-apple:before { content: '\f179'; }
+.icon-windows:before { content: '\f17a'; }
+.icon-linux:before { content: '\f17c'; }
+.icon-file-code:before { content: '\f1c9'; }
+.icon-menu:before { content: '\f0c9'; }
+
 .integrations {
    margin-top: 2em;
 }
