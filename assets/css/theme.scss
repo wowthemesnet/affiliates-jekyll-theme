@@ -613,3 +613,293 @@ span.navigation:before {
     transition: all.3s;
     opacity:.8;
 }
+
+// Open Science Resources page
+// Integrations / extensions / from datalad into-the-wild
+
+.integrations {
+   margin-top: 2em;
+}
+.integrations input {
+  color: var(--datalad-grey);
+  font-size: 20px;
+  text-align: left;
+}
+.integrations input[type=text] {
+  width: 95%;
+  margin-bottom: 1em;
+  padding: 0 0.5em;
+}
+
+.integrations input[type=text]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  opacity: 0.5; /* Firefox */
+  text-align: center;
+}
+
+.integrations input[type=radio] {
+  display: none
+}
+.integrations input[type=radio] + label {
+  border: 1px solid var(--datalad-grey);
+  background-color: white;
+  color: var(--datalad-grey);
+  border-radius: 6px;
+  padding: 16px;
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+.integrations input[type=radio]:hover + label {
+  background-color: var(--datalad-grey);
+  color: white;
+}
+.integrations input[type=radio]:checked + label {
+  border: 3px solid var(--datalad-yellow);
+}
+.integrations .filter-options {
+  flex: 1 1 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: inherit auto;
+  justify-content: center;
+  text-align: center;
+  break-after: always;
+}
+.tag-anchor {
+  border: 1px solid black;
+  padding: 5.5px;
+  width: 50px;
+  margin: 0;
+  border-radius: 6px;
+  position: relative;
+  white-space: nowrap;
+}
+.tag-anchor span.icon-down-dir {
+  padding: 0;
+  margin: 0;
+}
+.tag-button {
+  border: 1px solid var(--datalad-grey);
+  border: 1px solid #8a8b8c;
+  background-color: white;
+  color: #8a8b8c;
+  padding: 2px 8px;
+  border-radius: 12px;
+  margin: 0;
+}
+.tag-button:hover {
+  background-color: var(--datalad-grey);
+  color: white;
+  cursor: pointer;
+}
+.tag-button:hover a {
+  color: white;
+}
+.tag-button a {
+  color: inherit;
+}
+.tag-tooltip {
+  visibility: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  position: absolute;
+  align-content: flex-start;
+  line-height: 2em;
+  width: 60vw;
+  height: auto;
+  background-color: white;
+  border: 1px solid #ced4da;
+  color: var(--datalad-grey);
+  text-align: left;
+  padding: 5px 5px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  transform: translate(0, 2em);
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tag-anchor:hover .tag-tooltip {
+  visibility: visible;
+}
+.tag-anchor:active .tag-tooltip {
+  visibility: visible;
+}
+.visible {
+  visibility: visible;
+}
+.selected-tags {
+  flex: 1 1 100%;
+  break-after: always;
+  margin: 2em;
+  text-align: center;
+  line-height: 2em;
+}
+
+@media screen and (min-width: 340px) {
+  .integrations input[type=text] {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .tag-tooltip {
+    width: auto;
+    min-width: 25vw;
+    max-width: 40vw;
+  }
+}
+
+.integrations {
+  align-items: flex-start;
+  border: 0 !important; /* null both border-tops and -bottoms */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  line-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.integrations .item {
+  position: relative;
+  margin: 0.5em;
+  padding: 1em;
+  background-color: #fafafa;
+  border-radius: 8px;
+  text-align: center;
+  height: 200px;
+  width: 190px;
+}
+.integrations .item-logo {
+  margin: auto;
+  width: 175px;
+  height: 100px;
+  display: flex;
+  padding: 0.2em;
+  border: 1px solid #e6e6e6;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.integrations .item-logo img {
+  margin: auto;
+  max-height: 90px;
+  max-width: 170px;
+}
+.integrations .item-info {
+  color: #3a4046;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0.5em 0;
+  margin: auto;
+  text-align: center;
+  max-width: 175px;
+}
+.integrations .item-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0.5em auto;
+  text-align: center;
+}
+.integrations .social-links {
+  margin: auto;
+  width: 175px;
+}
+.integrations p.blurb {
+  hyphens: auto;
+  display: none;
+  margin: 0;
+}
+.social-links {
+  font-size: 1.6em;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: inherit;
+  bottom: 8px;
+}
+.social-links li {
+  display: inline-block;
+}
+.social-links a {
+  border-radius: 8px;
+  color: var(--datalad-grey);
+  border: 1px solid var(--datalad-grey);
+  display: inline-block;
+  font-size: .7em;
+  line-height: 1.5em;
+  text-align: center;
+  transition: transform 0.2s linear;
+  height: 1.5em;
+  width: 1.5em;
+}
+.social-links a:hover {
+  color: #fff;
+  transform: translateY(-0.1em);
+  background-color: var(--datalad-yellow);
+  border-color: var(--datalad-yellow);
+}
+.integrations .item:hover .item-logo, .integrations .item:active .item-logo {
+  display: none;
+}
+.integrations .item:hover .item-info h3, .integrations .item:active .item-info h3 {
+  display: none;
+}
+.integrations .item:hover .item-info .blurb, .integrations .item:active .item-info .blurb {
+  display: unset;
+}
+
+.use-case-text {
+  text-align: justify;
+  width: 90%;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .use-case-text {
+    width: 70%;
+    margin: auto;
+    font-size: 22px;
+  }
+}
+
+.social-links .icon-github::after           { border-color:     var(--datalad-grey); }
+.social-links .icon-home::after             { border-color:     var(--datalad-grey); }
+.social-links .icon-link-ext:after          { border-color:     var(--datalad-grey); }
+.social-links .icon-doc-text:after          { border-color:     var(--datalad-grey); }
+
+@media screen and (min-width: 768px) {
+  .integrations .social-links {
+    display: none;
+  }
+  .integrations .item:hover {
+    cursor: help;
+  }
+  .integrations .item:hover .item-logo, .integrations .item:hover .item-info h3 {
+    display: none;
+  }
+  .integrations .item:hover .item-info .blurb {
+    display: unset;
+  }
+  .integrations .item:hover .social-links, .integrations .item:active .social-links {
+    display: unset;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: inherit;
+    bottom: 8px;
+  }
+}
+
+
