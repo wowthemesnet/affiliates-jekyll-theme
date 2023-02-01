@@ -9,6 +9,9 @@ topmenu:
 
 - title: Contact
   url: "contact/"
+  
+ - title: Resources
+  url: "resources/"
 
 - title: Get this theme  
   url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
