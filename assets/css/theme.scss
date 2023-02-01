@@ -6,6 +6,14 @@
 $green:   #08a057 !default;
 $blue:    #3d61fd !default;
 
+// Taken from datalad site css
+:root {
+  --datalad-grey: #333;
+  --hero-text-color: white;
+  --datalad-yellow: #ffa200;
+  --datalad-blue: #7FD5FF;
+}
+
 @import 'bootstrap/bootstrap';
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
