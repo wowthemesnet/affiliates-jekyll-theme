@@ -5,14 +5,11 @@
 
 $green:   #08a057 !default;
 $blue:    #3d61fd !default;
+$grey: #333;
+$yellow: #ffa200;
 
-// Taken from datalad site css
-:root {
-  --datalad-grey: #333;
-  --hero-text-color: white;
-  --datalad-yellow: #ffa200;
-  --datalad-blue: #7FD5FF;
-}
+
+
 
 @import 'bootstrap/bootstrap';
 
