@@ -36,10 +36,10 @@ comments: false
     </div>
     <div v-for="itm in tagFilteredItems" class="item">
       <div v-if="itm.logo" class="item-logo">
-        <img :src="'img/logo/' + itm.logo" alt="">
+        <img :src="'/assets/images/logo_resources/' + itm.logo" alt="">
       </div>
       <div v-else class="item-logo">
-        <img src="img/logo/noname.svg" alt="">
+        <img src="/assets/images/logo_resources/noname.png" alt="">
       </div>
       <div class="item-info">
         <h3>{{itm.name}}</h3>
