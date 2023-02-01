@@ -4,57 +4,54 @@ title: Open Science Resources
 permalink: "/resources/"
 comments: false
 ---
-<section>
-  <p class="use-case-text" >
-    One of our goals is to help researchers navigate the open-science resources that are available to them.
-    Search through the different aspects of Open Science to figure out what you can do to make your research more open!
-  </p>
-  <div id="app" class="integrations">
-    <div class="filter-options">
-      <div class="text-input-options">
-        <input type="text" id="fname" name="fname" placeholder="Filter by name" v-model="search_text" ref="text_search_input">
-        <input type="text" id="ftag" name="ftag" placeholder="Filter by tag" v-model="tag_text" ref="tag_search_input" @input="inputTagText()" v-on:keyup.enter="clearSearchTagText()">
-      </div>
-      <div class="tag-filter-options">
-        <input type="radio" name="radio_group" v-model="radio_group_value" @change="selectRadioButton()" v-bind:value="'all'" id="all"><label for="all">All</label>
-        <input type="radio" name="radio_group" v-model="radio_group_value" @change="selectRadioButton()"
-          v-bind:value="'integration'" id="integrations"><label for="integrations">Open Data</label>
-        <input type="radio" name="radio_group" v-model="radio_group_value" @change="selectRadioButton()"
-          v-bind:value="'extension'" id="extensions"><label for="extensions">Open Code</label>
-        <input type="radio" name="radio_group" v-model="radio_group_value" @change="selectRadioButton()"
-          v-bind:value="'academic'" id="academic"><label for="academic">Open Publication</label>
-        <span class="tag-anchor">Modality&nbsp;<span class="icon-down-dir"></span>
-          <span class="tag-tooltip" v-bind:class="{ visible: popoverShow }" ref="tag_tooltip">
-            <span v-if="tag_options_filtered.length == 0"><em>No tags found</em></span>
-            <span v-else v-for="tag in tag_options_filtered"><span class="tag-button"><a @click="addSearchTag(tag)">{{tag}}</a></span>&nbsp;</span>
-          </span>
+<p class="use-case-text" >
+  One of our goals is to help researchers navigate the open-science resources that are available to them.
+  Search through the different aspects of Open Science to figure out what you can do to make your research more open!
+</p>
+<div id="app" class="integrations">
+  <div class="filter-options">
+    <div class="text-input-options">
+      <input type="text" id="fname" name="fname" placeholder="Filter by name" v-model="search_text" ref="text_search_input">
+      <input type="text" id="ftag" name="ftag" placeholder="Filter by tag" v-model="tag_text" ref="tag_search_input" @input="inputTagText()" v-on:keyup.enter="clearSearchTagText()">
+    </div>
+    <div class="tag-filter-options">
+      <input type="radio" name="radio_group" v-model="radio_group_value" @change="selectRadioButton()" v-bind:value="'all'" id="all"><label for="all">All</label>
+      <input type="radio" name="radio_group" v-model="radio_group_value" @change="selectRadioButton()"
+        v-bind:value="'integration'" id="integrations"><label for="integrations">Open Data</label>
+      <input type="radio" name="radio_group" v-model="radio_group_value" @change="selectRadioButton()"
+        v-bind:value="'extension'" id="extensions"><label for="extensions">Open Code</label>
+      <input type="radio" name="radio_group" v-model="radio_group_value" @change="selectRadioButton()"
+        v-bind:value="'academic'" id="academic"><label for="academic">Open Publication</label>
+      <span class="tag-anchor">Modality&nbsp;<span class="icon-down-dir"></span>
+        <span class="tag-tooltip" v-bind:class="{ visible: popoverShow }" ref="tag_tooltip">
+          <span v-if="tag_options_filtered.length == 0"><em>No tags found</em></span>
+          <span v-else v-for="tag in tag_options_filtered"><span class="tag-button"><a @click="addSearchTag(tag)">{{tag}}</a></span>&nbsp;</span>
         </span>
-      </div>
-    </div>
-    <div class="selected-tags">
-      <span v-for="tag in search_tags"><span class="tag-button selected"><a @click="removeSearchTag(tag)">{{tag}} <span class="icon-cancel-circled inner-icon"></span></a></span>&nbsp;</span>
-    </div>
-    <div v-for="itm in tagFilteredItems" class="item">
-      <div v-if="itm.logo" class="item-logo">
-        <img :src="'../assets/images/logo_resources/' + itm.logo" alt="">
-      </div>
-      <div v-else class="item-logo">
-        <img src="../assets/images/logo_resources/noname.png" alt="">
-      </div>
-      <div class="item-info">
-        <h3>{{itm.name}}</h3>
-        <p class="blurb">{{itm.description}}</p>
-      </div>
-      <ul class='social-links'>
-        <li v-if="itm.website"><a class='icon-home' aria-label='Website' :href="itm.website"></a></li>
-        <li v-if="itm.github"><a class='icon-github' aria-label='GitHub' :href="itm.github"></a></li>
-        <li v-if="itm.docs"><a class='icon-doc-text' aria-label='Documentation' :href="itm.docs"></a></li>
-        <li v-if="itm.info"><a class='icon-link-ext' aria-label='More info' :href="itm.info"></a></li>
-      </ul>
+      </span>
     </div>
   </div>
-
-</section>
+  <div class="selected-tags">
+    <span v-for="tag in search_tags"><span class="tag-button selected"><a @click="removeSearchTag(tag)">{{tag}} <span class="icon-cancel-circled inner-icon"></span></a></span>&nbsp;</span>
+  </div>
+  <div v-for="itm in tagFilteredItems" class="item">
+    <div v-if="itm.logo" class="item-logo">
+      <img :src="'../assets/images/logo_resources/' + itm.logo" alt="">
+    </div>
+    <div v-else class="item-logo">
+      <img src="../assets/images/logo_resources/noname.png" alt="">
+    </div>
+    <div class="item-info">
+      <h3>{{itm.name}}</h3>
+      <p class="blurb">{{itm.description}}</p>
+    </div>
+    <ul class='social-links'>
+      <li v-if="itm.website"><a class='icon-home' aria-label='Website' :href="itm.website"></a></li>
+      <li v-if="itm.github"><a class='icon-github' aria-label='GitHub' :href="itm.github"></a></li>
+      <li v-if="itm.docs"><a class='icon-doc-text' aria-label='Documentation' :href="itm.docs"></a></li>
+      <li v-if="itm.info"><a class='icon-link-ext' aria-label='More info' :href="itm.info"></a></li>
+    </ul>
+  </div>
+</div>
 
 <!-- INCLUDE: VUEJS -->
 <script src="https://unpkg.com/vue@2.6.14/dist/vue.min.js"></script>
