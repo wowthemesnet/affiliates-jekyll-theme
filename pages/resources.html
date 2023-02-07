@@ -26,13 +26,13 @@ comments: false
       <span class="tag-anchor">Modality&nbsp;<span class="icon-down-dir"></span>
         <span class="tag-tooltip" v-bind:class="{ visible: popoverShow }" ref="tag_tooltip">
           <span v-if="tag_options_filtered.length == 0"><em>No tags found</em></span>
-          <span v-else v-for="tag in tag_options_filtered"><span class="tag-button"><a @click="addSearchTag(tag)">{{tag}}</a></span>&nbsp;</span>
+          <span v-else v-for="tag in tag_options_filtered"><span class="tag-button"><a @click="addSearchTag(tag)">[[tag]]</a></span>&nbsp;</span>
         </span>
       </span>
     </div>
   </div>
   <div class="selected-tags">
-    <span v-for="tag in search_tags"><span class="tag-button selected"><a @click="removeSearchTag(tag)">{{tag}} <span class="icon-cancel-circled inner-icon"></span></a></span>&nbsp;</span>
+    <span v-for="tag in search_tags"><span class="tag-button selected"><a @click="removeSearchTag(tag)">[[tag]] <span class="icon-cancel-circled inner-icon"></span></a></span>&nbsp;</span>
   </div>
   <div v-for="itm in tagFilteredItems" class="item">
     <div v-if="itm.logo" class="item-logo">
@@ -42,8 +42,8 @@ comments: false
       <img src="../assets/images/logo_resources/noname.png" alt="">
     </div>
     <div class="item-info">
-      <h3>{{itm.name}}</h3>
-      <p class="blurb">{{itm.description}}</p>
+      <h3>[[itm.name]]</h3>
+      <p class="blurb">[[itm.description]]</p>
     </div>
     <ul class='social-links'>
       <li v-if="itm.website"><a class='icon-home' aria-label='Website' :href="itm.website"></a></li>

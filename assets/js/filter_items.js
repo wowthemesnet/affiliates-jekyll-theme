@@ -4,6 +4,7 @@ const file_path = '/affiliates-jekyll-test-site/assets/js/integrations.json';
 // Create VueJS app to load `integrations.json` and allow filtering by name/tag
 var app = new Vue({
     el: "#app",
+    delimiters: ['[[', ']]'],
     data: {
         all_items: [],
         search_text: '',
@@ -133,4 +134,5 @@ var app = new Vue({
       this.tag_options_filtered = this.tag_options;
       this.tag_options_available = this.tag_options;
     }
+
 });
