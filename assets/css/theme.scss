@@ -836,7 +836,7 @@ span.navigation:before {
 .integrations .item {
   position: relative;
   margin: 0.5em;
-  padding: 1em;
+  padding-top: 1em;
   background-color: #fafafa;
   border-radius: 8px;
   text-align: center;
@@ -858,7 +858,7 @@ span.navigation:before {
 .integrations .item-logo img {
   margin: auto;
   max-height: 90px;
-  max-width: 170px;
+  max-width: 165px;
 }
 .integrations .item-info {
   color: #3a4046;
