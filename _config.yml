@@ -3,7 +3,7 @@ email: contact@borealisbytes.com
 timezone: America/Toronto
 baseurl: "/"
 permalink: "/:title/"
-logo: 'assets/images/logo.png'
+logo: 'assets/images/blogo.png'
 favicon: 'assets/images/blogo.ico'
 author: Bbadmin
 paginate: 30
