@@ -1,11 +1,11 @@
-title: "Affiliates"
-email: wowthemesnet@gmail.com
-timezone: UTC
-baseurl: "/affiliates-jekyll-theme"
+title: "Borealis Bytes"
+email: contact@borealisbytes.com
+timezone: America/Toronto
+baseurl: "/"
 permalink: "/:title/"
-logo: 'assets/images/blogo.png'
-favicon: 'assets/images/favicon.ico'
-author: Sal
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/blogo.ico'
+author: Bbadmin
 paginate: 30
 disqus: 'demowebsite'
 locale: en_us

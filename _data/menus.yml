@@ -7,11 +7,17 @@ topmenu:
 - title: About
   url: "about/"
 
+- title: Portfolio
+  url: "portfolio/"
+
+- title: Solutions
+  url: "solutions/"
+
 - title: Contact
   url: "contact/"
 
-- title: Get this theme  
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
+- title: Consult Now  
+  url: https://calendly.com/borealisbytes/30min
   class: "ml-2 btn btn-dark text-white px-3"
   external: true
 
@@ -26,7 +32,3 @@ footermenu:
 
 - title: Contact
   url: "contact/"
-
-- title: Download
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/  
-  external: true
