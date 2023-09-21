@@ -8,8 +8,8 @@ $blue:    #3d61fd !default;
 
 @import 'bootstrap/bootstrap';
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/futura-pt');
+// @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
 
 /* add additional CSS rules below */
 html {
@@ -20,7 +20,7 @@ body {
     background:#fff;
     font-size:17px;
     transition: all 200ms linear;
-    font-family: "PT Sans",sans-serif;
+    font-family: 'Futura PT', sans-serif;
     line-height:1.7;
     color: #333;
     overflow-x:hidden;
@@ -135,7 +135,7 @@ small, .small {
 /* Pages
 ================================================== */
 .hero {
-    background: #fdd93d;
+    background: #3dfd93;
     padding: 5rem 5rem;
 }
 
@@ -550,7 +550,7 @@ background-color: #fff;
 img {max-width:100%;height: auto;}
 
 .bottompagination span.navigation a {
-	background: #fdd93d;
+	background: #3dfd93;
     color: #333;
     padding: 5px;
     border-radius: 3px;
@@ -609,7 +609,7 @@ span.navigation:before {
     }
 }
 
-.hover-opacity:hover {
-    transition: all.3s;
-    opacity:.8;
-}
+// .hover-opacity:hover {
+//     transition: all.3s;
+//     opacity:.8;
+// }
