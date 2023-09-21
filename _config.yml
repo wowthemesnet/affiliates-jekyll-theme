@@ -4,8 +4,8 @@ timezone: UTC
 baseurl: "/affiliates-jekyll-theme"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
-author: Sal
+favicon: 'assets/images/blogo.ico
+author: Bbadmin
 paginate: 30
 disqus: 'demowebsite'
 locale: en_us
