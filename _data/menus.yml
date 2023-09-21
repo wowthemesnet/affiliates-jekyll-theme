@@ -17,7 +17,7 @@ topmenu:
   url: "contact/"
 
 - title: Consult Now  
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
+  url: https://calendly.com/borealisbytes/30min
   class: "ml-2 btn btn-dark text-white px-3"
   external: true
 
