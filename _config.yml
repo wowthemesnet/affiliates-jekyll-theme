@@ -4,7 +4,7 @@ timezone: America/Toronto
 baseurl: "/"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
+favicon: 'assets/images/blogo.ico'
 author: Bbadmin
 paginate: 30
 disqus: 'demowebsite'
