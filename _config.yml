@@ -1,7 +1,7 @@
 title: "Borealis Bytes"
 email: contact@borealisbytes.com
 timezone: America/Toronto
-baseurl: "/home"
+baseurl: "/"
 permalink: "/:title/"
 logo: 'assets/images/blogo.png'
 favicon: 'assets/images/blogo.ico'
