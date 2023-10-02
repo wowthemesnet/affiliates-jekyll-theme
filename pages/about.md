@@ -8,7 +8,7 @@ permalink: "/about/"
 
 #### Who We Are
 
-Borealis Bytes is a leading technology consulting firm based in [Your Location]. Founded in [Year], we specialize in delivering cutting-edge solutions to businesses looking to thrive in today's digital landscape. Our team comprises experts in software development, cybersecurity, and business strategy, ensuring a holistic approach to solving your most pressing challenges.
+Borealis Bytes is a leading technology consulting firm based in Canada. Founded in 2023, we specialize in delivering cutting-edge solutions to businesses looking to thrive in today's digital landscape. Our team comprises experts in software development, cybersecurity, and business strategy, ensuring a holistic approach to solving your most pressing challenges.
 
 #### What We Do
 
