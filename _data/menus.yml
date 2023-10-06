@@ -26,6 +26,7 @@ footermenu:
 
 - title: Home
   url: "https://borealisbytes.com/"
+  external: true
 
 - title: Privacy Policy
   url: "privacy-policy/"
@@ -35,3 +36,4 @@ footermenu:
 
 - title: Sitemp
   url: "https://borealisbytes.com/sitemap.xml"
+  external: true
