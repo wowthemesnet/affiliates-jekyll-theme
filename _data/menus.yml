@@ -32,3 +32,6 @@ footermenu:
 
 - title: Contact
   url: "contact/"
+
+- title: Sitemp
+  url: "sitemap.xml"
