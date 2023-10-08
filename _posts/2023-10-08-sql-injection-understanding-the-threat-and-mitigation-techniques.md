@@ -3,12 +3,8 @@ layout: post
 title:  "SQL Injection: Understanding the Threat and Mitigation Techniques"
 author: shiva
 categories: [Web Security, Node.js, SQL Injection]
-image: assets/images/2.jpg
+image: assets/images/3.jpg
 ---
-
-# SQL Injection: Understanding the Threat and Mitigation Techniques
-
-![Image](../assets/images/2.jpg)
 
 SQL Injection is a type of attack that targets web applications by manipulating the SQL queries that the application sends to the database. It is one of the most common and dangerous vulnerabilities in web security, as it can potentially expose sensitive data and even allow attackers to take control of the entire database. In this blog post, we will explore SQL Injection in the context of web security and provide examples using Node.js. We will also discuss best practices and mitigation techniques to protect your Node.js applications from SQL Injection attacks.
 
