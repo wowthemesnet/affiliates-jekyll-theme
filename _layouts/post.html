@@ -26,7 +26,7 @@ post_class: post-template
                         {% assign sortedCategories = page.categories | sort %}
                         {% for category in sortedCategories %}
                         <li>
-                         <a href="{{ site.baseurl }}/categories#{{ category | slugify }}">{{ category }}</a>
+                         <a href="{{ site.baseurl }}/blog#{{ category | slugify }}">{{ category }}</a>
                         </li>
                         {% endfor %}
                     </ul>

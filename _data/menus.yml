@@ -7,11 +7,8 @@ topmenu:
 - title: About
   url: "about/"
 
-- title: Portfolio
-  url: "portfolio/"
-
-- title: Solutions
-  url: "solutions/"
+- title: Blog
+  url: "blog/"
 
 - title: Contact
   url: "contact/"
