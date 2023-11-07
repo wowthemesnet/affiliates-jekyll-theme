@@ -1,7 +1,7 @@
 title: "Guildless Gamers"
 email: theguildlessgamers@gmail.com
 timezone: UTC
-baseurl: "/home"
+baseurl: ""
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
