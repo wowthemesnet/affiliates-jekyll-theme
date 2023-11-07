@@ -1,13 +1,13 @@
-title: "Affiliates"
-email: wowthemesnet@gmail.com
+title: "Guildless Gamers"
+email: theguildlessgamers@gmail.com
 timezone: UTC
-baseurl: "/affiliates-jekyll-theme"
+baseurl: "/home"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-author: Sal
+author: Thonk
 paginate: 30
-disqus: 'demowebsite'
+disqus: 'guildless discussions'
 locale: en_us
 lang: en_us
 feed_items: 10
@@ -25,27 +25,27 @@ ganalytics: UA-113961478-1
 # Authors
 authors:
   sal:
-    name: Sal
-    display_name: Sal
+    name: Guildless Gamers
+    display_name: Thonk
     avatar: 'assets/images/sal.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    email: theguildlessgamers@gmail.com
+    web: https://thonksquad.github.io/
+    twitter: https://twitter.com/guildlessgamers
+    description: "Guildless Gamers co-admin"
   john:
-    name: John
-    display_name: John
+    name: Grawrz
+    display_name: Grawrz
     avatar: 'assets/images/john.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
+    email: theguildlessgamers@gmail.com
+    web: https://thonksquad.github.io/
+    twitter: https://twitter.com/guildlessgamers
+    description: "Grawrz - dashingly handsome but even more skillful"
 
 # Social
 social:
   instagram: https://www.instagram.com/bootstrapstarter/
   facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
-  twitter: https://twitter.com/bstartercom
+  twitter: https://twitter.com/guildlessgamers
 
 # Plugins
 plugins: 
