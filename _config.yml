@@ -24,7 +24,7 @@ ganalytics: UA-113961478-1
 
 # Authors
 authors:
-  sal:
+  thonk:
     name: Guildless Gamers
     display_name: Thonk
     avatar: 'assets/images/sal.png'
@@ -32,13 +32,13 @@ authors:
     web: https://thonksquad.github.io/
     twitter: https://twitter.com/guildlessgamers
     description: "Guildless Gamers co-admin"
-  john:
+  grawrz:
     name: Grawrz
     display_name: Grawrz
     avatar: 'assets/images/john.png'
     email: theguildlessgamers@gmail.com
     web: https://thonksquad.github.io/
-    twitter: https://twitter.com/guildlessgamers
+    twitter: https://twitter.com/grawrzguide
     description: "Grawrz - dashingly handsome but even more skillful"
 
 # Social
