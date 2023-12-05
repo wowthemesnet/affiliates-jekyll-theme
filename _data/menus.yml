@@ -2,7 +2,7 @@
 topmenu:
 
 - title: Home
-  url: ""
+  url: "blog/"
 
 - title: About
   url: "about/"
@@ -19,7 +19,7 @@ topmenu:
 footermenu:
 
 - title: Home
-  url: ""
+  url: "blog/"
 
 - title: Privacy Policy
   url: "privacy-policy/"
