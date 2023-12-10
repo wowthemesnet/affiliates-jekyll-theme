@@ -7,13 +7,12 @@ topmenu:
 - title: About
   url: "about/"
 
-- title: Contact
-  url: "contact/"
+- title: Categories
+  url: "categories/"
 
-- title: Get this theme  
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
+- title: Our Mission
+  url: "our-mission/"
   class: "ml-2 btn btn-dark text-white px-3"
-  external: true
 
 # Footer Menu
 footermenu:
@@ -24,9 +23,8 @@ footermenu:
 - title: Privacy Policy
   url: "privacy-policy/"
 
-- title: Contact
-  url: "contact/"
+- title: Categories
+  url: "categories/"
 
-- title: Download
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/  
-  external: true
+- title: Our Mission
+  url: "our-mission/"
