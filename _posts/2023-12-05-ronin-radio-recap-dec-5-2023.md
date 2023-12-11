@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "The Ronin Radio - Dec 12, 2023"
+title:  "The Ronin Radio - Dec 5, 2023"
 categories: [ RoninRadio ]
 image: assets/images/apeiron-ronin-banner.jpg
+showhomepage: true
 ---
 
-Here's the topics Discussed from the Dec 12, 2023 edition of The Ronin Radio:
+Here's the topics Discussed from the Dec 5, 2023 edition of The Ronin Radio:
 
 Apeiron, a new god game, has joined the Ronin ecosystem. The CEO Frank discussed the game which involves shaping planets with elements like water, earth, fire and air. There are also PvE and soon to be PvP battles in a roguelike and card game hybrid.
 
