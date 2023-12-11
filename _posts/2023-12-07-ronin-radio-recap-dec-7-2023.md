@@ -10,7 +10,7 @@ Axie Infinity: The speakers touched upon the Axie ID giveaway competition and th
 
 Community Support: The importance of community and supporting content creators was emphasized. The speakers discussed the significance of engaging with the community, recognizing content creators, and fostering a strong sense of community within the Axie Infinity ecosystem. This community support was seen as vital for the growth and success of the game.  Discussion continued around recognizing and appreciating content creators in the community. The importance of acknowledging the efforts and contributions of content creators was highlighted and the struggles for Sky Mavis in truly tracking the value of content creator contributions.
 
-![ronin-x-impossible-finance](/assets/images/ronin-x-impossible-finance.png 'Ronin x Impossible Finance')
+![ronin-x-impossible-finance](/assets/images/ronin-x-impossible-finance.jpg 'Ronin x Impossible Finance')
 
 Impossible Finance Launchpad: The launch of Impossible Finance launchpad on the Ronin Network was mentioned. The speakers highlighted the potential benefits of allocating tokens to existing community holders when launching projects on Ronin. This launchpad was seen as a valuable opportunity for new projects to gain exposure and support within the Axie Infinity community.
 
