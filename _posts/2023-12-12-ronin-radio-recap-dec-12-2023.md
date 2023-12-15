@@ -4,7 +4,7 @@ title:  "The Ronin Radio - Dec 12, 2023"
 categories: [ RoninRadio ]
 author: tanjimon
 summary: true
-image: assets/images/ronin-radio-dec-7-2023.jpg
+image: assets/images/ronin-radio-dec-12-2023.jpg
 showhomepage: true
 ---
 
@@ -25,3 +25,5 @@ Parts evolution and upcoming announcements are highly anticipated. Some details 
 TL;DR:
 Overall, the discussion highlights how Ronin's strong community, incentives alignment mechanisms and revenue streams for projects have created a solid foundation for the ecosystem to grow and compete with other blockchain gaming platforms.
 Excellent episode.
+
+Episode link <a href="https://twitter.com/TheRoninRadio/status/1734201294695313671">here.</a>
