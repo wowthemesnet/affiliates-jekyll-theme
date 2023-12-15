@@ -40,6 +40,14 @@ authors:
     web: https://thonksquad.github.io/
     twitter: https://twitter.com/grawrzguide
     description: "Grawrz - dashingly handsome but even more skillful"
+  tanjimon:
+    name: Tanjimon
+    display_name: Tanjimon
+    avatar: 'assets/images/tanj_ron.png'
+    email: theguildlessgamers@gmail.com
+    web: https://thonksquad.github.io/
+    twitter: https://twitter.com/Tanjimon
+    description: "Always on the ball"
 
 # Social
 social:

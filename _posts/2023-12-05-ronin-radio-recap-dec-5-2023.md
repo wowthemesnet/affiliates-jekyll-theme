@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "The Ronin Radio - Dec 5, 2023"
+author: tanjimon
+summary: true
 categories: [ RoninRadio ]
 image: assets/images/apeiron-ronin-banner.jpg
 showhomepage: true
