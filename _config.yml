@@ -3,8 +3,8 @@ email: theguildlessgamers@gmail.com
 timezone: UTC
 baseurl: ''
 permalink: "/:title/"
-logo: 'assets/images/logo-small.png'
-favicon: 'assets/images/favicon.ico'
+logo: 'assets/images/logo.svg'
+favicon: 'assets/images/favicon.svg'
 author: Thonk
 paginate: 30
 disqus: 'guildless discussions'
