@@ -32,14 +32,14 @@ authors:
     web: https://thonksquad.github.io/
     twitter: https://twitter.com/guildlessgamers
     description: "Guildless Gamers co-admin"
-  grawrz:
-    name: Grawrz
-    display_name: Grawrz
-    avatar: 'assets/images/john.png'
+  guildless:
+    name: Guildless Gamers
+    display_name: Guildless Gamers
+    avatar: 'assets/images/logo.png'
     email: theguildlessgamers@gmail.com
     web: https://thonksquad.github.io/
-    twitter: https://twitter.com/grawrzguide
-    description: "Grawrz - dashingly handsome but even more skillful"
+    twitter: https://twitter.com/guildlessgamers
+    description: "Guildless Gamers - the best non-guild 'guild' in Web3"
   tanjimon:
     name: Tanjimon
     display_name: Tanjimon
