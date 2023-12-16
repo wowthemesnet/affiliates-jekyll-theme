@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Season 5 - Guildless Gamers Top 1000"
-categories: [ Guildless, EndOfSeason ]
+title:  "Axie Origins Season 5 - GG Top 1000"
+categories: [ EndOfSeason, AxieOrigins ]
 author: guildless
 summary: false
 image: assets/images/gg/s5-mystic-era.jpg
