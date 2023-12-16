@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Season 6 - Guildless Gamers Top 1000"
-categories: [ Guildless, EndOfSeason ]
+title:  "Axie Origins Season 6 - GG Top 1000"
+categories: [ EndOfSeason, AxieOrigins ]
 author: guildless
 summary: false
 image: assets/images/gg/s6-final-era.jpg

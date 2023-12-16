@@ -4,7 +4,7 @@ title:  "The Ronin Radio - Dec 5, 2023"
 author: tanjimon
 summary: true
 categories: [ RoninRadio ]
-image: assets/images/apeiron-ronin-banner.jpg
+image: assets/images/rr/apeiron-ronin-banner.jpg
 showhomepage: true
 ---
 
@@ -14,7 +14,7 @@ Apeiron, a new god game, has joined the Ronin ecosystem. The CEO Frank discussed
 
 Apeiron worlds can be purchased on OpenSea. Older worlds that are aged have advantages like generating more resources and accessing more game features.  There are free to play options for players who cannot afford to buy worlds. They can join guilds who will provide them with planets to play the game.
 
-![apeiron-x-ronin](/assets/images/apeiron-ronin.png 'Apeiron X Ronin')
+![apeiron-x-ronin](/assets/images/rr/apeiron-ronin.png 'Apeiron X Ronin')
 
 Pixels has over 280,000 users and chapter 2 is coming soon. The Ronin Radio intends to interview the Pixels lead to discuss more. 
 
