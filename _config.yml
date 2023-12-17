@@ -24,6 +24,36 @@ ganalytics: UA-113961478-1
 
 icon-size: 20
 
+# Admins
+admins:
+  thonk: 
+    name: Thonk
+    role: Vision and Partnerships
+    image: 'assets/images/cc/thonk.jpg'
+    twitter: https://twitter.com/OgThonk
+  nichee:
+    name: Nichee
+    role: Branding and Design
+    image: 'assets/images/cc/nichee.jpg'
+    twitter: https://twitter.com/nicheesan
+  winty:
+    name: Winty
+    role: Analysis and Content Creation
+    image: 'assets/images/cc/winty.jpg'
+    twitter: https://twitter.com/Winty_Axie
+  bewm:
+    name: Bewm
+    role: Head Moderator and In-server activity
+    image: 'assets/images/cc/bewm.jpg'
+    twitter: https://twitter.com/bewm24
+  grawrz:
+    name: Grawrz
+    role: Guildless Creator Program
+    image: 'assets/images/cc/grawrz-oshio.png'
+    twitter: https://twitter.com/GrawrzGuide
+
+
+
 # Authors
 authors:
   thonk:
@@ -50,6 +80,17 @@ authors:
     web: https://thonksquad.github.io/
     twitter: https://twitter.com/Tanjimon
     description: "Always on the ball"
+
+# Partners
+partners:
+  skysmash:
+    name: Sky Smash
+    logo: 'assets/images/partners/skysmash-logo.png'
+    twitter: https://twitter.com/skysmashaxie
+  roninradio:
+    name: Ronin Radio
+    logo: 'assets/images/rr/default.png'
+    twitter: https://twitter.com/theroninradio
 
 # Creators
 creators:

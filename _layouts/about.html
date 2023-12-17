@@ -3,39 +3,74 @@ layout: default
 permalink: "/about.html"
 ---
 
-<div class="col-lg-8 mx-auto">
+<div class="col-xl-18 mx-auto">
 
   <div class="mainheading">
     <h1 class="posttitle">{{ page.title }}</h1>
   </div>
 
   <div class="article-post serif-font">
-    {{content}}
+    <p>We are a community of gamers that transcends group affiliations. Everyone is welcome to come and join the discussion! Not only have we used our collective expertise to foster growth of our communities, but we also use it to help Game Developers improve their games. </p>
+    <p>We believe in the future of Web3 Gaming.</p>
   </div>
 
-  {% for creatorlist in site.creators %}
-    {% assign creator = creatorlist[1] %}
-    
-    <div class="row post-top-meta">
-      <div class="col-md-2">
-        <img class="creator-thumb" src="{{ site.baseurl }}/{{ creator.avatar }}" alt="{{ creator.name }}">
-      </div>
-      <div class="col-md-10">
-        <strong>{{ creator.name }}</strong>
-        {% if creator.twitch %}
-        <a target="_blank" href="{{ creator.twitch }}"><img  src="{{site.baseurl}}/assets/images/icons/twitch.svg" alt="Twitch" width="{{ site.icon-size }}">
-        {% endif %}
-        {% if creator.youtube %}
-        <a target="_blank" href="{{ creator.youtube }}"><img  src="{{site.baseurl}}/assets/images/icons/youtube.svg" alt="YouTube" width="{{ site.icon-size }}">
-        {% endif %}        
-        {% if creator.twitter %}
-        <a target="_blank" href="{{ creator.twitter }}"><img  src="{{site.baseurl}}/assets/images/icons/twitterx.svg" alt="Twitter" width="{{ site.icon-size }}">
-        {% endif %}  
-        <a target="_blank" href="{{ creator.twitter }}" class="btn follow hide">Follow</a>
-        <span class="author-description">{{ creator.role }}</span>
-        <div class="creator-description">{{ creator.description }}</div>            
-      </div>
-    </div>  
-  {% endfor %}
+  <div class="row justify-content-md-center">
+    {% for adminlist in site.admins %}
+      {% assign admin = adminlist[1] %}
+        <div class="admin col-md-4 text-center">
+          <img src="{{ site.baseurl }}/{{ admin.image }}" alt="{{ partner.name }}"/>
+          <p><strong>{{ admin.name }}</strong><a target="_blank" href="{{ admin.twitter }}"><img  src="{{site.baseurl}}/assets/images/icons/twitterx.svg" alt="Twitter" width="30"></a>
+            <br />
+            {{ admin.role}}
+            
+          </p>
+        </div>
+    {% endfor %}
+
+  </div>
+
+
+  <h2 id="our-partners">Our Partners</h2>
+  <div class="row justify-content-md-center">
+    {% for partnerlist in site.partners %}
+      {% assign partner = partnerlist[1] %}
+        <div class="partner col-md-4 text-center">
+          <img src="{{ site.baseurl }}/{{ partner.logo }}" alt="{{ partner.name }}"/>
+          <p><strong>{{ partner.name }}</strong><br />
+            <a target="_blank" href="{{ partner.twitter }}"><img  src="{{site.baseurl}}/assets/images/icons/twitterx.svg" alt="Twitter" width="45"></a>
+          </p>
+        </div>
+    {% endfor %}
+    </div>
+
+  <h2 id="our-content-creators">Our Content Creators</h2>
+  <p>We have a line up of prominent and active Content Creators in various categories.</p>
+
+  <div class="row post-top-meta justify-content-md-center">
+    {% for creatorlist in site.creators %}
+      {% assign creator = creatorlist[1] %}
+
+      <div class="creator col-md-6">
+        <div class="text-center">
+          <img class="creator-thumb" src="{{ site.baseurl }}/{{ creator.avatar }}" alt="{{ creator.name }}">
+        </div>
+        <div class="col-md-12 text-center">
+          <strong>{{ creator.name }}</strong>
+          {% if creator.twitch %}
+          <a target="_blank" href="{{ creator.twitch }}"><img  src="{{site.baseurl}}/assets/images/icons/twitch.svg" alt="Twitch" width="{{ site.icon-size }}"></a>
+          {% endif %}
+          {% if creator.youtube %}
+          <a target="_blank" href="{{ creator.youtube }}"><img  src="{{site.baseurl}}/assets/images/icons/youtube.svg" alt="YouTube" width="{{ site.icon-size }}"></a>
+          {% endif %}        
+          {% if creator.twitter %}
+          <a target="_blank" href="{{ creator.twitter }}"><img  src="{{site.baseurl}}/assets/images/icons/twitterx.svg" alt="Twitter" width="{{ site.icon-size }}"></a>
+          {% endif %}  
+          
+          <span class="author-description">{{ creator.role }}</span>
+          <div class="creator-description">{{ creator.description }}</div>            
+        </div>
+    </div>
+    {% endfor %}
+  </div>
 
 </div>
