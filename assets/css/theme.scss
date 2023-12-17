@@ -240,8 +240,7 @@ small, .small {
     height: 50px;
     margin-right: 9px;
     border-radius: 100%;
-    border: 2px solid #eaeaea;
-    padding: 2px;
+    border: 2px solid #eaeaea;    
     object-fit: cover;
 }
 .post-top-meta {
@@ -642,4 +641,31 @@ span.navigation:before {
 
 .hide {
     display: none !important;
+}
+
+.partner {
+  height: 16rem;
+  margin-bottom: 5rem;
+}
+
+.partner img {
+  max-height: 10rem;
+  max-width: 100%;
+  padding: 5px;
+}
+
+.admin {
+  height: 12rem;
+  margin-bottom: 5rem;
+}
+
+.admin img {
+  max-height: 10rem;
+  max-width: 100%;
+  padding: 5px;
+  border-radius: 100%
+}
+
+.creator {
+    margin-bottom: 3rem;
 }
