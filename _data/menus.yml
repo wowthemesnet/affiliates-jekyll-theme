@@ -4,6 +4,9 @@ topmenu:
 - title: Home
   url: ""
 
+- title: About
+  url: "about/"
+
 - title: Categories
   url: "categories/"
 
@@ -19,6 +22,9 @@ footermenu:
 
 - title: Privacy Policy
   url: "privacy-policy/"
+
+- title: About
+  url: "about/"  
 
 - title: Categories
   url: "categories/"

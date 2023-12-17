@@ -1,0 +1,41 @@
+---
+layout: default
+permalink: "/about.html"
+---
+
+<div class="col-lg-8 mx-auto">
+
+  <div class="mainheading">
+    <h1 class="posttitle">{{ page.title }}</h1>
+  </div>
+
+  <div class="article-post serif-font">
+    {{content}}
+  </div>
+
+  {% for creatorlist in site.creators %}
+    {% assign creator = creatorlist[1] %}
+    
+    <div class="row post-top-meta">
+      <div class="col-md-2">
+        <img class="creator-thumb" src="{{ site.baseurl }}/{{ creator.avatar }}" alt="{{ creator.name }}">
+      </div>
+      <div class="col-md-10">
+        <strong>{{ creator.name }}</strong>
+        {% if creator.twitch %}
+        <a target="_blank" href="{{ creator.twitch }}"><img  src="{{site.baseurl}}/assets/images/icons/twitch.svg" alt="Twitch" width="{{ site.icon-size }}">
+        {% endif %}
+        {% if creator.youtube %}
+        <a target="_blank" href="{{ creator.youtube }}"><img  src="{{site.baseurl}}/assets/images/icons/youtube.svg" alt="YouTube" width="{{ site.icon-size }}">
+        {% endif %}        
+        {% if creator.twitter %}
+        <a target="_blank" href="{{ creator.twitter }}"><img  src="{{site.baseurl}}/assets/images/icons/twitterx.svg" alt="Twitter" width="{{ site.icon-size }}">
+        {% endif %}  
+        <a target="_blank" href="{{ creator.twitter }}" class="btn follow hide">Follow</a>
+        <span class="author-description">{{ creator.role }}</span>
+        <div class="creator-description">{{ creator.description }}</div>            
+      </div>
+    </div>  
+  {% endfor %}
+
+</div>

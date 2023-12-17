@@ -234,6 +234,16 @@ small, .small {
     padding: 2px;
     object-fit: cover;
 }
+.creator-thumb {
+    object-position: center;
+    width: 50px;
+    height: 50px;
+    margin-right: 9px;
+    border-radius: 100%;
+    border: 2px solid #eaeaea;
+    padding: 2px;
+    object-fit: cover;
+}
 .post-top-meta {
 	margin-bottom: 1rem;
     margin-top: 3rem;
@@ -241,6 +251,10 @@ small, .small {
 .post-top-meta .author-thumb {
 	width:72px;
 	height:72px;
+}
+.post-top-meta .creator-thumb {
+    width:92px;
+    height:92px;
 }
 .post-top-meta.authorpage .author-thumb {
 	margin-top:40px;
@@ -254,6 +268,13 @@ small, .small {
 	margin-bottom:5px;
 	margin-top:10px;
 	font-size:0.95rem;
+}
+.post-top-meta .creator-description {
+    margin-bottom:5px;
+    margin-top:10px;
+    font-size:0.95rem;
+    color:rgba(0,0,0);
+
 }
 .author-meta {
 	flex:1 1 auto;
@@ -617,4 +638,8 @@ span.navigation:before {
 
 .white-space {
     white-space: normal;
+}
+
+.hide {
+    display: none !important;
 }

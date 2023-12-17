@@ -22,6 +22,8 @@ sass:
   style: :compressed
 ganalytics: UA-113961478-1
 
+icon-size: 20
+
 # Authors
 authors:
   thonk:
@@ -48,6 +50,39 @@ authors:
     web: https://thonksquad.github.io/
     twitter: https://twitter.com/Tanjimon
     description: "Always on the ball"
+
+# Creators
+creators:
+  grawrz:
+    name: Grawrz
+    role: Twitch Streamer, Youtuber
+    avatar: 'assets/images/cc/grawrz.png'
+    twitch: https://twitch.tv/GrawrzGuide
+    youtube: https://youtube.com/GrawrzGuide
+    twitter: https://twitter.com/GrawrzGuide
+    description: "Everyone's favorite doggo VTuber! Streamer, Despairer, Shoutcaster!"
+  nichee:
+    name: Nichee
+    role: Twitch Streamer, Youtuber, Artist
+    avatar: 'assets/images/cc/nichee.png'
+    twitch: https://twitch.tv/nicheesan
+    twitter: https://twitter.com/nicheesan
+    description: "Daydreamer artist who does streams like a potato"
+  atown71:
+    name: Atown71
+    role: Twitch Streamer
+    avatar: 'assets/images/cc/atown.png'
+    twitch: https://twitch.tv/atown71
+    twitter: https://twitter.com/AdrianMalkowsk1
+    description: "FPS enjoyer, casual whale in Axie. What is money? Only Paper"
+  1ogic:
+    name: 1ogic
+    role: Content Creator
+    avatar: 'assets/images/cc/1ogic.png'
+    twitch: https://twitch.tv/1_ogic
+    youtube: https://youtube.com/@1_ogic
+    twitter: https://twitter.com/1_ogic
+    description: "Min/max’er, content creator, PvP floor janitor"
 
 # Social
 social:
