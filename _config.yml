@@ -22,7 +22,7 @@ sass:
   style: :compressed
 ganalytics: UA-113961478-1
 
-icon-size: 20
+icon-size: 35
 
 # Admins
 admins:
