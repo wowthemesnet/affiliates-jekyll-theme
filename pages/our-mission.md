@@ -26,8 +26,6 @@ Creating strong parasocial relationships is at the heart of our community strate
 
 'Guildless Gamers' stands out for its comprehensive approach to community building, expertise in Web3 gaming, and a commitment to fostering a diverse gaming ecosystem. Looking ahead, we aim to expand our services, explore new technologies, and continuously elevate the gaming experience for our community members.
 
-## Meet the Team
-
 ## Conclusion: Embarking on a Gaming Odyssey Together
 
 We invite you to join 'Guildless Gamers', where your passion for gaming will find a resonating community, expert guidance, and innovative solutions. Together, we're not just playing games; we're creating the future of gaming in the Web3 era.
