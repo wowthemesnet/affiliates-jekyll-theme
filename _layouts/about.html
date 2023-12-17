@@ -19,9 +19,13 @@ permalink: "/about.html"
       {% assign admin = adminlist[1] %}
         <div class="admin col-md-4 text-center">
           <img src="{{ site.baseurl }}/{{ admin.image }}" alt="{{ partner.name }}"/>
-          <p><strong>{{ admin.name }}</strong><a target="_blank" href="{{ admin.twitter }}"><img  src="{{site.baseurl}}/assets/images/icons/twitterx.svg" alt="Twitter" width="30"></a>
+          <p>
+            <strong>{{ admin.name }}</strong>
             <br />
-            {{ admin.role}}
+            {{ admin.role}}<br />
+            <a target="_blank" href="{{ admin.twitter }}"><img  src="{{site.baseurl}}/assets/images/icons/twitterx.svg" alt="Twitter" width="45"></a>
+            
+            
             
           </p>
         </div>
@@ -29,6 +33,7 @@ permalink: "/about.html"
 
   </div>
 
+  <br />
 
   <h2 id="our-partners">Our Partners</h2>
   <div class="row justify-content-md-center">
@@ -56,6 +61,7 @@ permalink: "/about.html"
         </div>
         <div class="col-md-12 text-center">
           <strong>{{ creator.name }}</strong>
+          <div class="creator-description">{{ creator.description }}</div>
           {% if creator.twitch %}
           <a target="_blank" href="{{ creator.twitch }}"><img  src="{{site.baseurl}}/assets/images/icons/twitch.svg" alt="Twitch" width="{{ site.icon-size }}"></a>
           {% endif %}
@@ -64,10 +70,9 @@ permalink: "/about.html"
           {% endif %}        
           {% if creator.twitter %}
           <a target="_blank" href="{{ creator.twitter }}"><img  src="{{site.baseurl}}/assets/images/icons/twitterx.svg" alt="Twitter" width="{{ site.icon-size }}"></a>
-          {% endif %}  
+          {% endif %}            
           
-          <span class="author-description">{{ creator.role }}</span>
-          <div class="creator-description">{{ creator.description }}</div>            
+          
         </div>
     </div>
     {% endfor %}
