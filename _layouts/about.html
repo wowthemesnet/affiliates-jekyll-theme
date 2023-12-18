@@ -27,9 +27,6 @@ permalink: "/about.html"
             <br />
             {{ admin.role}}<br />
             <a target="_blank" href="{{ admin.twitter }}"><img  src="{{site.baseurl}}/assets/images/icons/twitterx.svg" alt="Twitter" width="45"></a>
-            
-            
-            
           </p>
         </div>
     {% endfor %}
@@ -43,9 +40,11 @@ permalink: "/about.html"
     {% for partnerlist in site.partners %}
       {% assign partner = partnerlist[1] %}
         <div class="partner col-md-4 text-center">
-          <img src="{{ site.baseurl }}/{{ partner.logo }}" alt="{{ partner.name }}"/>
+          <img src="{{ site.baseurl }}/{{ partner.logo }}" alt="{{ partner.name }}" {% if partner.css %}class="{{ partner.css }}"{% endif %}/>
           <p><strong>{{ partner.name }}</strong><br />
-            <a target="_blank" href="{{ partner.twitter }}"><img  src="{{site.baseurl}}/assets/images/icons/twitterx.svg" alt="Twitter" width="45"></a>
+            <a target="_blank" href="{{ partner.twitter }}">
+              <img src="{{site.baseurl}}/assets/images/icons/twitterx.svg" alt="Twitter" width="45">
+            </a>
           </p>
         </div>
     {% endfor %}
