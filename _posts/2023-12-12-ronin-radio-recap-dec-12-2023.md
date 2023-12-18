@@ -4,7 +4,7 @@ title:  "The Ronin Radio - Dec 12, 2023"
 categories: [ RoninRadio ]
 author: tanjimon
 summary: true
-image: assets/images/rr/default.png
+image: assets/images/rr/default.jpg
 showhomepage: true
 comments: true
 ---
