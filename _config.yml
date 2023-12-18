@@ -8,6 +8,7 @@ favicon: 'assets/images/favicon.svg'
 author: Thonk
 paginate: 30
 disqus: 'guildless discussions'
+  shortname: guildless.disqus.com
 locale: en_us
 lang: en_us
 feed_items: 10
