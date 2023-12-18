@@ -643,15 +643,18 @@ span.navigation:before {
 }
 
 .partner {
-  height: 16rem;
+  height: 12rem;
   margin-bottom: 5rem;
 }
 
 .partner img {
-  max-height: 10rem;
+  max-height: 15vh;
   max-width: 100%;
   padding: 5px;
+  margin-bottom: 1rem;
 }
+
+
 
 .admin {
   height: 12rem;
@@ -671,4 +674,9 @@ span.navigation:before {
 
 .page-header {
     margin-bottom: 16px;
+}
+
+.ronin-radio-logo {
+    background-color: #000000;
+    border-radius: 100%;
 }

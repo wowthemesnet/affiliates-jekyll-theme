@@ -92,8 +92,9 @@ partners:
     twitter: https://twitter.com/skysmashaxie
   roninradio:
     name: Ronin Radio
-    logo: 'assets/images/rr/default2.png'
+    logo: 'assets/images/partners/roninradio-logo.png'
     twitter: https://twitter.com/theroninradio
+    css: ronin-radio-logo
 
 # Creators
 creators:
