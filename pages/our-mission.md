@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: our-mission
 title: Our Mission
 permalink: "/our-mission/"
 comments: false
