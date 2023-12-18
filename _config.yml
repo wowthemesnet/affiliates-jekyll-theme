@@ -25,6 +25,7 @@ ganalytics: GTM-PDQLS3RR
 icon-size: 35
 
 description: Checkout the Guildless Gamers, the best community in Web3!
+image: 'assets/images/ray-header.png'
 
 # Admins
 admins:
