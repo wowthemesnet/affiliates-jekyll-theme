@@ -20,4 +20,4 @@ Apeiron has also rolled out exciting content creator programs, offering enticing
 
 Apeiron advises creators to focus on producing captivating content that resonates with their audience. By delving into the intricate details of the game, creators can share information to prospective players. Content creators are encouraged to join the Apeiron community on Discord.
 
-To stay updated on the latest developments, follow the link to the space on Twitter: Link to space <a href="https://twitter.com/i/spaces/1BRJjPapYwRKw?s=20">https://twitter.com/i/spaces/1BRJjPapYwRKw?s=20</a>
+To stay updated on the latest developments, follow the link to the space on Twitter:  <a href="https://twitter.com/i/spaces/1BRJjPapYwRKw?s=20">Link to space</a>
