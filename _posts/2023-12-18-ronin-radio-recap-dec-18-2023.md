@@ -8,19 +8,16 @@ image: assets/images/rr/default2.png
 showhomepage: true
 ---
 
-Apeiron Migration:
-Apeiron has migrated from Polygon to Ronin blockchain officially. They are excited about the support from Sky Mavis and the Ronin network, which brings many advantages like the "Ronin effect". 
+Apeiron Makes Official Migration to Ronin Blockchain
 
-The game focuses on both PvE and PvP gameplay with PvP being the core of the economy.  Competitive gameplay and balancing is a priority.  Frank, the Apeiron CEO, requested the community test and provide feedback to help balance and fine tune the game.
+In a groundbreaking move, Apeiron has successfully migrated its operations from Polygon to the Ronin blockchain. The renowned gaming company is thrilled about the support received from industry giants Sky Mavis and the Ronin network. This migration brings a multitude of advantages, including what insiders are calling the "Ronin effect."
 
-Players can obtain planet and apostle NFTs which have utilities within the game like staking and equipping gear.  Star NFTs represent land in the game and allow planets to orbit, age faster and join guilds.
+Apeiron's gaming experience revolves around both player-versus-environment (PvE) and player-versus-player (PvP) gameplay. However, PvP takes center stage as the testing period has begun for those holding the respective assets. The team at Apeiron places great importance on competitive gameplay and ensuring a well-balanced environment. To achieve this, CEO Frank has reached out to the community, urging players to actively participate in testing the game and providing valuable feedback for fine-tuning.
 
+Players will have the opportunity to acquire NFTs in the PvE experience. Apostles collected give you a choice of 1 mint per play through. Finding out more on Star NFTs, we learned that they enhance land ownership and grant planets the ability to orbit, age faster, which is advantageous for those building guilds and strong alliances in game.
 
-Content Creators:
-Apeiron has content creator programs with incentives up to $2,700 for bringing in new players and based on player playtime and boss kills. Apeiron team is willing to support creators who play and experience the game.
+Apeiron has also rolled out exciting content creator programs, offering enticing incentives of up to $2,700 in rewards. These incentives are based on various factors, including player acquisition and boss kills in PvE. The Apeiron team is wholeheartedly committed to supporting creators who actively engage with and immerse themselves in the game.
 
-Content creators are advised to focus on creating content around what interests their audience and discover the intricacies of the game to build value.  Having different creator archetypes will make the ecosystem more sustainable.  Creators are encouraged to get involved in the Apeiron community through Discord to learn more about the game and ask questions.
+Apeiron advises creators to focus on producing captivating content that resonates with their audience. By delving into the intricate details of the game, creators can share information to prospective players. Content creators are encouraged to join the Apeiron community on Discord.
 
-Moku Secret Code:  You should have listed to the space mate 😉 .
-
-Link to space <a href="https://twitter.com/i/spaces/1BRJjPapYwRKw?s=20">https://twitter.com/i/spaces/1BRJjPapYwRKw?s=20</a>
+To stay updated on the latest developments, follow the link to the space on Twitter: Link to space <a href="https://twitter.com/i/spaces/1BRJjPapYwRKw?s=20">https://twitter.com/i/spaces/1BRJjPapYwRKw?s=20</a>
