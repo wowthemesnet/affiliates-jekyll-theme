@@ -1,13 +1,13 @@
-title: "Affiliates"
-email: wowthemesnet@gmail.com
+title: "Guildless Gamers"
+email: theguildlessgamers@gmail.com
 timezone: UTC
-baseurl: "/affiliates-jekyll-theme"
+baseurl: ''
 permalink: "/:title/"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
-author: Sal
+logo: 'assets/images/logo.svg'
+favicon: 'assets/images/favicon.svg'
+author: Thonk
 paginate: 30
-disqus: 'demowebsite'
+disqus: guildless.disqus.com
 locale: en_us
 lang: en_us
 feed_items: 10
@@ -20,32 +20,120 @@ kramdown:
 sass:
   sass_dir: _sass
   style: :compressed
-ganalytics: UA-113961478-1
+ganalytics: GTM-PDQLS3RR
+
+icon-size: 35
+
+description: Checkout the Guildless Gamers, the best community in Web3!
+image: 'assets/images/ray-header.png'
+
+# Admins
+admins:
+  thonk: 
+    name: Thonk
+    role: Vision and Partnerships
+    image: 'assets/images/cc/thonk.jpg'
+    twitter: https://twitter.com/OgThonk
+  nichee:
+    name: Nichee
+    role: Branding and Design
+    image: 'assets/images/cc/nichee.jpg'
+    twitter: https://twitter.com/nicheesan
+  winty:
+    name: Winty
+    role: Analysis and Content Creation
+    image: 'assets/images/cc/winty.jpg'
+    twitter: https://twitter.com/Winty_Axie
+  bewm:
+    name: Bewm
+    role: Head Moderator and In-server activity
+    image: 'assets/images/cc/bewm.jpg'
+    twitter: https://twitter.com/bewm24
+  grawrz:
+    name: Grawrz
+    role: Guildless Creator Program
+    image: 'assets/images/cc/grawrz-oshio.png'
+    twitter: https://twitter.com/GrawrzGuide
+
+
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
+  thonk:
+    name: Guildless Gamers
+    display_name: Thonk
     avatar: 'assets/images/sal.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John
-    avatar: 'assets/images/john.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
+    email: theguildlessgamers@gmail.com
+    web: https://thonksquad.github.io/
+    twitter: https://twitter.com/guildlessgamers
+    description: "Guildless Gamers co-admin"
+  guildless:
+    name: Guildless Gamers
+    display_name: Guildless Gamers
+    avatar: 'assets/images/logo-resized.png'
+    email: theguildlessgamers@gmail.com
+    web: https://thonksquad.github.io/
+    twitter: https://twitter.com/guildlessgamers
+    description: "Guildless Gamers - the best non-guild 'guild' in Web3"
+  tanjimon:
+    name: Tanjimon
+    display_name: Tanjimon
+    avatar: 'assets/images/tanj_ron.png'
+    email: theguildlessgamers@gmail.com
+    web: https://thonksquad.github.io/
+    twitter: https://twitter.com/Tanjimon
+    description: "Always on the ball"
+
+# Partners
+partners:
+  skysmash:
+    name: Sky Smash
+    logo: 'assets/images/partners/skysmash-logo.png'
+    twitter: https://twitter.com/skysmashaxie
+  roninradio:
+    name: Ronin Radio
+    logo: 'assets/images/partners/roninradio-logo.png'
+    twitter: https://twitter.com/theroninradio
+    css: ronin-radio-logo
+
+# Creators
+creators:
+  grawrz:
+    name: Grawrz
+    role: Twitch Streamer, Youtuber
+    avatar: 'assets/images/cc/grawrz.png'
+    twitch: https://twitch.tv/GrawrzGuide
+    youtube: https://youtube.com/GrawrzGuide
+    twitter: https://twitter.com/GrawrzGuide
+    description: "Everyone's favorite doggo VTuber! Streamer, Despairer, Shoutcaster!"
+  nichee:
+    name: Nichee
+    role: Twitch Streamer, Youtuber, Artist
+    avatar: 'assets/images/cc/nichee.png'
+    twitch: https://twitch.tv/nicheesan
+    twitter: https://twitter.com/nicheesan
+    description: "Daydreamer artist who does streams like a potato"
+  atown71:
+    name: Atown71
+    role: Twitch Streamer
+    avatar: 'assets/images/cc/atown.png'
+    twitch: https://twitch.tv/atown71
+    twitter: https://twitter.com/AdrianMalkowsk1
+    description: "FPS enjoyer, casual whale in Axie. What is money? Only Paper"
+  1ogic:
+    name: 1ogic
+    role: Content Creator
+    avatar: 'assets/images/cc/1ogic.png'
+    twitch: https://twitch.tv/1_ogic
+    youtube: https://youtube.com/@1_ogic
+    twitter: https://twitter.com/1_ogic
+    description: "Min/max’er, content creator, PvP floor janitor"
 
 # Social
 social:
-  instagram: https://www.instagram.com/bootstrapstarter/
-  facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
-  twitter: https://twitter.com/bstartercom
+  twitch: https://twitch.tv/guildlessgamers
+  youtube: https://www.youtube.com/@GuildlessGamers
+  twitter: https://twitter.com/guildlessgamers
 
 # Plugins
 plugins: 

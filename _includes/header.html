@@ -1,0 +1,4 @@
+{% assign randomNumber = "now" | date: "%N" | modulo: 5 | plus: 1 %}
+<div >
+    <img class="page-header" src="{{ site.baseurl }}/assets/images/headers/{{ randomNumber }}.png">
+</div>

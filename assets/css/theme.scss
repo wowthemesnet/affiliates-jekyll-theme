@@ -7,6 +7,7 @@ $green:   #08a057 !default;
 $blue:    #3d61fd !default;
 
 @import 'bootstrap/bootstrap';
+@import 'layout/archives';
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
@@ -115,8 +116,7 @@ small, .small {
 }
 .social-icon {
     display: inline-block !important;
-    width: 20px;
-    height: 20px;
+    width: 30px;
     margin-left: 15px;
 }
 
@@ -135,7 +135,7 @@ small, .small {
 /* Pages
 ================================================== */
 .hero {
-    background: #fdd93d;
+    background: #d2e7d6;
     padding: 5rem 5rem;
 }
 
@@ -233,6 +233,15 @@ small, .small {
     padding: 2px;
     object-fit: cover;
 }
+.creator-thumb {
+    object-position: center;
+    width: 50px;
+    height: 50px;
+    margin-right: 9px;
+    border-radius: 100%;
+    border: 2px solid #eaeaea;    
+    object-fit: cover;
+}
 .post-top-meta {
 	margin-bottom: 1rem;
     margin-top: 3rem;
@@ -240,6 +249,10 @@ small, .small {
 .post-top-meta .author-thumb {
 	width:72px;
 	height:72px;
+}
+.post-top-meta .creator-thumb {
+    width:92px;
+    height:92px;
 }
 .post-top-meta.authorpage .author-thumb {
 	margin-top:40px;
@@ -253,6 +266,13 @@ small, .small {
 	margin-bottom:5px;
 	margin-top:10px;
 	font-size:0.95rem;
+}
+.post-top-meta .creator-description {
+    margin-bottom:5px;
+    margin-top:10px;
+    font-size:0.95rem;
+    color:#000000;
+
 }
 .author-meta {
 	flex:1 1 auto;
@@ -303,11 +323,11 @@ span.post-name a,span.post-read-more a:hover {
     }
     a {
         color:inherit; 
-        box-shadow:inset 0 -2px 0 rgba(255, 229, 31,1), 0 2px 0 rgba(255, 229, 31,1);
+        box-shadow:inset 0 -2px 0 #d3ccff, 0 2px 0 #d3ccff;
         
     }
     a:hover {
-        box-shadow:inset 0 -30px 0 rgba(255, 229, 31,1), 0 2px 0 rgba(255, 229, 31,1);
+        box-shadow:inset 0 -30px 0 #d3ccff, 0 2px 0 #d3ccff;
         text-decoration:none;
     }
     img, iframe {
@@ -610,6 +630,53 @@ span.navigation:before {
 }
 
 .hover-opacity:hover {
-    transition: all.3s;
+    transition: all .3s;
     opacity:.8;
+}
+
+.white-space {
+    white-space: normal;
+}
+
+.hide {
+    display: none !important;
+}
+
+.partner {
+  height: 12rem;
+  margin-bottom: 5rem;
+}
+
+.partner img {
+  max-height: 15vh;
+  max-width: 100%;
+  padding: 5px;
+  margin-bottom: 1rem;
+}
+
+
+
+.admin {
+  height: 12rem;
+  margin-bottom: 5rem;
+}
+
+.admin img {
+  max-height: 10rem;
+  max-width: 100%;
+  padding: 5px;
+  border-radius: 100%
+}
+
+.creator {
+    margin-bottom: 3rem;
+}
+
+.page-header {
+    margin-bottom: 16px;
+}
+
+.ronin-radio-logo {
+    background-color: #000000;
+    border-radius: 100%;
 }
