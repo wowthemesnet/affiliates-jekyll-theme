@@ -47,9 +47,9 @@ social:
   facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
   twitter: https://twitter.com/bstartercom
   linkedin: https://www.linkedin.com/company/github/
-  medium: https://github.com/wowthemesnet
-  stack-overflow: https://stackoverflow.com/
-  pinterest: https://stackoverflow.com/
+  # medium:
+  # stack-overflow:
+  # pinterest:
   github: https://github.com/wowthemesnet
 
 # Plugins
